@@ -4,6 +4,11 @@ Dump your `pass` password store into a cleartext markdown file, so you
 can print it out as a backup or share it via email or put in on github
 or whatever.
 
+## Requirements
+```
+pip install python-gnupg
+```
+
 ## Usage
 
 Just do `python dumppass.py`, enter the passphrase for your pgp key
